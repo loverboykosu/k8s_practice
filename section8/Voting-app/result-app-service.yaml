@@ -6,7 +6,7 @@ metadata:
     name: result-service
     app: demo-voting-app
 spec:
-  tpe: NodePort
+  type: NodePort
   ports:
     - port: 80
       targetPort: 80
